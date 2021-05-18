@@ -1,0 +1,30 @@
+
+https://aws.amazon.com/premiumsupport/knowledge-center/public-website-ec2-iis/
+In Windows serve, IIS is not working. that is for .net 
+
+
+localhost  : iis service
+localhost:8080  current server
+
+
+============= Windows serve config =============
+https://stackoverflow.com/a/48990347/5031107
+
+in here, I used 80 port.
+also, firewall turn off.
+
+composer install
+composer update
+
+env file
+
+
+
+Click on apache > config > Apache (httpd.conf)
+DocumentRoot "C:/xampp/htdocs/gscan/public"
+<Directory "C:/xampp/htdocs">
+
+
+
+
+
